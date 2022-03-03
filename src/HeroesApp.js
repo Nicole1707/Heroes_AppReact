@@ -2,7 +2,7 @@ import { useEffect, useReducer } from 'react'
 import { AuthContext } from './components/auth/authContext'
 import { authReducer } from './components/auth/authReducer'
 import { AppRouter } from './routers/AppRouter'
-
+import './HeroesApp.css'
 export const HeroesApp = () => {
     const init = () => {
         return JSON.parse(localStorage.getItem('user')) || { logged: false };

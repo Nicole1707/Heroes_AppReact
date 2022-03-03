@@ -24,7 +24,7 @@ export const HeroCard = ({
                     <div className="col-8">
                         <div className="card-body">
                             <h5 className="card-tittle">{superhero} </h5>
-                            <p className="crad-text">{alter_ego}</p>
+                            <p className="card-text">{alter_ego}</p>
                             {
                                 (alter_ego !== characters) &&
                                 <p className="text-muted">{characters}</p>
